@@ -1,0 +1,40 @@
+.box{
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#container{
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    margin: 10% auto;
+    border-radius: 10%;
+}
+
+.box2{
+    border: 2px solid blue;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,34 @@
+#container{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;   
+    
+}
+
+.middle{
+    display: flex;
+    gap: 10px;
+    flex: 3;
+}
+
+.a,.b,.d,.e{
+    flex: 1;
+}
+
+.c{
+    flex: 3;
+}
+
+.middle .box{
+    background-color: lightcoral;
+}

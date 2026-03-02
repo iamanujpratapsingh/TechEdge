@@ -1,0 +1,21 @@
+div{
+    border: 2px solid yellow;
+    display: inline-block;
+    /* float: right; */
+    width: 20%;
+
+}
+.first{
+    border: 2px solid rebeccapurple;
+}
+ 
+.second{
+    border: 2px solid cyan;
+    /* visibility: hidden; */
+}
+
+.third{
+    border: 2px solid mediumblue;
+   visibility: hidden;
+    /* display: none; */
+}
